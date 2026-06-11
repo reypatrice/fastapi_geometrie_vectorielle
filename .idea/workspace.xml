@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abd5053d-d56e-4b39-bae6-7a74356180e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/fastapi_geometrie_vectorielle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/matrices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/points.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geometry/vectors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/matrices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/points.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/vectors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_matrices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_points.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_shapes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_vectors.py" afterDir="false" />
+    <list default="true" id="abd5053d-d56e-4b39-bae6-7a74356180e1" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,61 +50,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000000076003" />
-      <entry key="S5" value="1.0002214438067534" />
-      <entry key="S10" value="1.0347868082976972" />
-      <entry key="S30" value="2.1863294218024087" />
-      <entry key="S60" value="4.51749842586001" />
-      <entry key="M2" value="8.436034630683265" />
-      <entry key="M5" value="17.570944133853757" />
-      <entry key="M10" value="27.21650848739025" />
-      <entry key="M15" value="32.64842734377744" />
-      <entry key="M30" value="39.97561036014999" />
-      <entry key="H1" value="44.58782131731953" />
-      <entry key="H2" value="47.18469158798039" />
-      <entry key="H4" value="48.56378940882284" />
-      <entry key="D1" value="49.75655421794591" />
-      <entry key="W1" value="49.96512069317896" />
+      <entry key="MS100" value="1.5358867312681466" />
+      <entry key="MS500" value="1.882702996290655" />
+      <entry key="S2" value="1.9692898170087338" />
+      <entry key="S5" value="1.987819559539684" />
+      <entry key="S10" value="2.0283515657058424" />
+      <entry key="S30" value="3.181787801232682" />
+      <entry key="S60" value="5.512803929819831" />
+      <entry key="M2" value="9.431650210210742" />
+      <entry key="M5" value="18.567290738602168" />
+      <entry key="M10" value="28.213678877574594" />
+      <entry key="M15" value="33.6461644056695" />
+      <entry key="M30" value="40.9742249350771" />
+      <entry key="H1" value="45.58704867594814" />
+      <entry key="H2" value="48.18428276555223" />
+      <entry key="H4" value="49.56357902269289" />
+      <entry key="D1" value="50.75651829231797" />
+      <entry key="W1" value="50.96511553943182" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.5556818770865935E-201" />
-      <entry key="MS500" value="6.892617184631055E-41" />
-      <entry key="S2" value="9.111629240112672E-11" />
-      <entry key="S5" value="9.63470486887541E-5" />
-      <entry key="S10" value="0.009815653248192608" />
-      <entry key="S30" value="0.21411137279993536" />
-      <entry key="S60" value="0.4627280008149544" />
-      <entry key="M2" value="0.6837857820813553" />
-      <entry key="M5" value="1.0158968388467022" />
-      <entry key="M10" value="1.489270698247223" />
-      <entry key="M15" value="1.8094125480923502" />
-      <entry key="M30" value="2.2857381701140533" />
-      <entry key="H1" value="2.606558217433848" />
-      <entry key="H2" value="2.793220761856998" />
-      <entry key="H4" value="2.8939615976433894" />
-      <entry key="D1" value="2.9819470704661293" />
-      <entry key="W1" value="2.9974115470408766" />
+      <entry key="MS100" value="8.336692760050291E-202" />
+      <entry key="MS500" value="6.08413384115829E-41" />
+      <entry key="S2" value="8.831809438128997E-11" />
+      <entry key="S5" value="9.515242828273279E-5" />
+      <entry key="S10" value="0.009754610616663936" />
+      <entry key="S30" value="0.21366660331313087" />
+      <entry key="S60" value="0.4622471429235447" />
+      <entry key="M2" value="0.6834304013233303" />
+      <entry key="M5" value="1.0156856110003853" />
+      <entry key="M10" value="1.4891158637287587" />
+      <entry key="M15" value="1.8092871335183205" />
+      <entry key="M30" value="2.285658953838369" />
+      <entry key="H1" value="2.606513049613214" />
+      <entry key="H2" value="2.7931965605481457" />
+      <entry key="H4" value="2.893949060537283" />
+      <entry key="D1" value="2.9819449174166937" />
+      <entry key="W1" value="2.997411237867178" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.1579186437577736E-5" />
-      <entry key="MS500" value="0.1166291239421009" />
-      <entry key="S2" value="0.5843886243805637" />
-      <entry key="S5" value="0.8069195855725515" />
-      <entry key="S10" value="0.9404248440539573" />
-      <entry key="S30" value="2.3468821948236775" />
-      <entry key="S60" value="4.942075250530839" />
-      <entry key="M2" value="9.095536864062408" />
-      <entry key="M5" value="18.57391907092827" />
-      <entry key="M10" value="28.69708447041082" />
-      <entry key="M15" value="34.45104645465253" />
-      <entry key="M30" value="42.257213526807604" />
-      <entry key="H1" value="47.192064111536546" />
-      <entry key="H2" value="49.97668260746574" />
-      <entry key="H4" value="51.45711670990696" />
-      <entry key="D1" value="52.73839274571736" />
-      <entry key="W1" value="52.96251666316151" />
+      <entry key="MS100" value="0.53589829526783" />
+      <entry key="MS500" value="0.9856518734491014" />
+      <entry key="S2" value="1.535731759679836" />
+      <entry key="S5" value="1.7845153392739674" />
+      <entry key="S10" value="1.9283575230341896" />
+      <entry key="S30" value="3.3399297800279544" />
+      <entry key="S60" value="5.935900362107108" />
+      <entry key="M2" value="10.090289958324622" />
+      <entry key="M5" value="19.569849212049657" />
+      <entry key="M10" value="29.693996963365134" />
+      <entry key="M15" value="35.448589260523576" />
+      <entry key="M30" value="43.25571437200637" />
+      <entry key="H1" value="48.19122901393803" />
+      <entry key="H2" value="50.97624093008137" />
+      <entry key="H4" value="52.456889457258285" />
+      <entry key="D1" value="53.7383539450903" />
+      <entry key="W1" value="53.96251109709538" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -176,7 +153,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_matrices.py">
+  <component name="RunManager" selected="FastAPI.fastapi_geometrie_vectorielle">
     <configuration name="fastapi_geometrie_vectorielle" type="Python.FastAPI">
       <option name="file" value="$PROJECT_DIR$/main.py" />
       <module name="fastapi_geometrie_vectorielle" />
@@ -330,15 +307,28 @@
       <workItem from="1781104887080" duration="2315000" />
       <workItem from="1781161083453" duration="673000" />
       <workItem from="1781162960215" duration="3458000" />
-      <workItem from="1781171016872" duration="1123000" />
+      <workItem from="1781171016872" duration="5585000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1781172172332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781172172332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fastapi_geometrie_vectorielle$fastapi_geometrie_vectorielle.coverage" NAME="fastapi_geometrie_vectorielle Coverage Results" MODIFIED="1781105444382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fastapi_geometrie_vectorielle$fastapi_geometrie_vectorielle.coverage" NAME="fastapi_geometrie_vectorielle Coverage Results" MODIFIED="1781175054336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/fastapi_geometrie_vectorielle$.coverage" NAME=" Coverage Results" MODIFIED="1781163538009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

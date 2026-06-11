@@ -1,15 +1,8 @@
 fastapi>=0.110
 uvicorn[standard]>=0.27
 numpy>=1.26
+slowapi>=0.1.9          # limitation de débit (rate limiting) pour l'usage public
 
 # Dépendances de développement (tests) — facultatives en production :
 pytest>=8.0
 httpx>=0.27
-
-
-
-
-
-
-
-

@@ -4,11 +4,20 @@ Centraliser ici les schémas d'entrée évite de les redéfinir dans chaque rout
 et offre un seul endroit où lire le « contrat » de l'API. Les alias de type
 (Vec2, Matrix3, PointList) nomment l'intention sans rien changer au comportement.
 """
-from pydantic import BaseModel
+from typing import Annotated
 
-Vec2 = list[float]                # un point ou un vecteur 2D : [x, y]
-Matrix3 = list[list[float]]       # une matrice homogène 3x3
-PointList = list[list[float]]     # une liste de points (figure, polygone...)
+from pydantic import BaseModel, Field
+
+# --- Limites de taille (protection en usage public) -----------------------
+# Plafonner la taille des entrées empêche qu'une requête démesurée
+# (un polygone de plusieurs millions de points, par exemple) ne sature la
+# mémoire du serveur. Au-delà de ces bornes, Pydantic renvoie tout seul un 422.
+MAX_POINTS = 10_000      # nb max de points dans une figure / un polygone
+MAX_MATRICES = 1_000     # nb max de matrices composées en une seule requête
+
+Vec2 = Annotated[list[float], Field(min_length=2, max_length=2)]   # [x, y]
+Matrix3 = list[list[float]]                                        # matrice 3x3
+PointList = Annotated[list[list[float]], Field(max_length=MAX_POINTS)]
 
 
 # --- Vecteurs -------------------------------------------------------------
@@ -84,7 +93,7 @@ class ReflectionParams(BaseModel):
 
 
 class MatrixList(BaseModel):
-    matrices: list[Matrix3]
+    matrices: Annotated[list[Matrix3], Field(max_length=MAX_MATRICES)]
 
 
 class OneMatrix(BaseModel):
