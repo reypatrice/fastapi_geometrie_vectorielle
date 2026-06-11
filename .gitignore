@@ -1,0 +1,22 @@
+# Environnements virtuels (reconstruits depuis requirements.txt)
+.venv/
+venv/
+env/
+
+# Caches Python (générés automatiquement)
+__pycache__/
+*.py[cod]
+
+# Outils de test et de couverture
+.pytest_cache/
+.coverage
+
+# Configuration personnelle de l'IDE PyCharm
+.idea/
+
+# Secrets et variables d'environnement
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db

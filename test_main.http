@@ -1,0 +1,39 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+### additionner 2 vecteurs
+
+POST http://127.0.0.1:8000/vectors/add
+Content-Type: application/json
+
+{ "a": [1, 2], "b": [3, 4] }
+
+### normaliser un vecteur non nul
+
+POST http://127.0.0.1:8000/vectors/normalize
+Content-Type: application/json
+
+{
+  "v": [
+    3,
+    4
+  ]
+}
+
+
+### normaliser un vecteur nul (lève une erreur)
+
+POST http://127.0.0.1:8000/vectors/normalize
+Content-Type: application/json
+
+{
+  "v": [
+    0,
+    0
+  ]
+}
+
+
+

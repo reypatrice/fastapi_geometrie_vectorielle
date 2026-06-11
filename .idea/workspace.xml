@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abd5053d-d56e-4b39-bae6-7a74356180e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fastapi_geometrie_vectorielle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometry/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometry/matrices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometry/points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometry/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geometry/vectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/matrices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/vectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_matrices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_shapes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_vectors.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="34" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="FastAPI test_main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "reypatrice"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/reypatrice/fastapi_geometrie_vectorielle.git",
+    "accountId": "5f2c6ef0-c807-43bc-af3e-55385d8a69a1"
+  }
+}]]></component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000000076003" />
+      <entry key="S5" value="1.0002214438067534" />
+      <entry key="S10" value="1.0347868082976972" />
+      <entry key="S30" value="2.1863294218024087" />
+      <entry key="S60" value="4.51749842586001" />
+      <entry key="M2" value="8.436034630683265" />
+      <entry key="M5" value="17.570944133853757" />
+      <entry key="M10" value="27.21650848739025" />
+      <entry key="M15" value="32.64842734377744" />
+      <entry key="M30" value="39.97561036014999" />
+      <entry key="H1" value="44.58782131731953" />
+      <entry key="H2" value="47.18469158798039" />
+      <entry key="H4" value="48.56378940882284" />
+      <entry key="D1" value="49.75655421794591" />
+      <entry key="W1" value="49.96512069317896" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.5556818770865935E-201" />
+      <entry key="MS500" value="6.892617184631055E-41" />
+      <entry key="S2" value="9.111629240112672E-11" />
+      <entry key="S5" value="9.63470486887541E-5" />
+      <entry key="S10" value="0.009815653248192608" />
+      <entry key="S30" value="0.21411137279993536" />
+      <entry key="S60" value="0.4627280008149544" />
+      <entry key="M2" value="0.6837857820813553" />
+      <entry key="M5" value="1.0158968388467022" />
+      <entry key="M10" value="1.489270698247223" />
+      <entry key="M15" value="1.8094125480923502" />
+      <entry key="M30" value="2.2857381701140533" />
+      <entry key="H1" value="2.606558217433848" />
+      <entry key="H2" value="2.793220761856998" />
+      <entry key="H4" value="2.8939615976433894" />
+      <entry key="D1" value="2.9819470704661293" />
+      <entry key="W1" value="2.9974115470408766" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.1579186437577736E-5" />
+      <entry key="MS500" value="0.1166291239421009" />
+      <entry key="S2" value="0.5843886243805637" />
+      <entry key="S5" value="0.8069195855725515" />
+      <entry key="S10" value="0.9404248440539573" />
+      <entry key="S30" value="2.3468821948236775" />
+      <entry key="S60" value="4.942075250530839" />
+      <entry key="M2" value="9.095536864062408" />
+      <entry key="M5" value="18.57391907092827" />
+      <entry key="M10" value="28.69708447041082" />
+      <entry key="M15" value="34.45104645465253" />
+      <entry key="M30" value="42.257213526807604" />
+      <entry key="H1" value="47.192064111536546" />
+      <entry key="H2" value="49.97668260746574" />
+      <entry key="H4" value="51.45711670990696" />
+      <entry key="D1" value="52.73839274571736" />
+      <entry key="W1" value="52.96251666316151" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Er1DgU55U0THvvczkTB5o0IL8w" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "FastAPI.fastapi_geometrie_vectorielle.executor": "Run",
+    "HTTP Request.test_main | #1.executor": "Run",
+    "HTTP Request.test_main | #2.executor": "Run",
+    "HTTP Request.test_main | normaliser un vecteur non nul.executor": "Run",
+    "HTTP Request.test_main | normaliser un vecteur nul (lève une erreur).executor": "Run",
+    "HTTP Request.test_main | normaliser un vecteur nul.executor": "Run",
+    "HTTP Request.test_main | normaliser un vecteur.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_api.test_add_endpoint.executor": "Run",
+    "Python tests.Python tests for test_api.test_angle_endpoint_returns_degrees.executor": "Run",
+    "Python tests.Python tests in test_api.py.executor": "Run",
+    "Python tests.Python tests in test_matrices.py.executor": "Run",
+    "Python tests.Python tests in test_points.py.executor": "Run",
+    "Python tests.Python tests in test_shapes.py.executor": "Run",
+    "Python tests.Python tests in test_vectors.py.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests in test_matrices.py">
+    <configuration name="fastapi_geometrie_vectorielle" type="Python.FastAPI">
+      <option name="file" value="$PROJECT_DIR$/main.py" />
+      <module name="fastapi_geometrie_vectorielle" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/Scripts/python.exe" />
+      <option name="SDK_NAME" value="Python 3.14 (fastapi_geometrie_vectorielle)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_api.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="fastapi_geometrie_vectorielle" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_api.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_matrices.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="fastapi_geometrie_vectorielle" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_matrices.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_points.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="fastapi_geometrie_vectorielle" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_points.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_shapes.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="fastapi_geometrie_vectorielle" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_shapes.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_vectors.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="fastapi_geometrie_vectorielle" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_vectors.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="FastAPI.fastapi_geometrie_vectorielle" />
+      <item itemvalue="Python tests.Python tests in test_shapes.py" />
+      <item itemvalue="Python tests.Python tests in test_matrices.py" />
+      <item itemvalue="Python tests.Python tests in test_points.py" />
+      <item itemvalue="Python tests.Python tests in test_api.py" />
+      <item itemvalue="Python tests.Python tests in test_vectors.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_matrices.py" />
+        <item itemvalue="Python tests.Python tests in test_points.py" />
+        <item itemvalue="Python tests.Python tests in test_shapes.py" />
+        <item itemvalue="Python tests.Python tests in test_vectors.py" />
+        <item itemvalue="Python tests.Python tests in test_api.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.24374.152" />
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abd5053d-d56e-4b39-bae6-7a74356180e1" name="Changes" comment="" />
+      <created>1780921757637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780921757637</updated>
+      <workItem from="1780921758726" duration="571000" />
+      <workItem from="1780936308412" duration="2216000" />
+      <workItem from="1780992094513" duration="1460000" />
+      <workItem from="1780997629599" duration="4872000" />
+      <workItem from="1781016839040" duration="4039000" />
+      <workItem from="1781070648262" duration="1016000" />
+      <workItem from="1781076823666" duration="2836000" />
+      <workItem from="1781081094627" duration="3386000" />
+      <workItem from="1781086117369" duration="4507000" />
+      <workItem from="1781104887080" duration="2315000" />
+      <workItem from="1781161083453" duration="673000" />
+      <workItem from="1781162960215" duration="3458000" />
+      <workItem from="1781171016872" duration="1123000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fastapi_geometrie_vectorielle$fastapi_geometrie_vectorielle.coverage" NAME="fastapi_geometrie_vectorielle Coverage Results" MODIFIED="1781105444382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fastapi_geometrie_vectorielle$.coverage" NAME=" Coverage Results" MODIFIED="1781163538009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
